@@ -11,7 +11,7 @@ export default function Navbar() {
         <ul className="nav-links">
 
           <a href="#">Home</a>
-          <a href="#">Data skills</a>
+          <a href="#data-skills-btn">Data skills</a>
           <a href="#resume">Resume</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>

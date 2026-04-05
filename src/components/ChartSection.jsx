@@ -15,7 +15,7 @@ export default function ChartSection() {
   };
 
   return (
-    <section className="chart-section">
+    <section className="chart-section" id="data-skills-btn">
       <h2>My Data Skills</h2>
 
       <div className="chart-container">
