@@ -907,11 +907,11 @@ body {
     padding-right: 10px;
   }
 
-  .project-card {
+  /* .project-card {
     padding: 22px 18px;
     gap: 16px;
     min-height: 0;
-  }
+  } */
 
   .project-links {
     flex-direction: column;
