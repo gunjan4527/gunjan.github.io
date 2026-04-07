@@ -678,3 +678,68 @@
 .clear-btn:hover {
     opacity: 0.8;
 }
+
+/* Mobile-only hero optimization */
+@media (max-width: 640px) {
+    .hero {
+        min-height: auto !important;
+        height: auto !important;
+        padding: 64px 12px 40px 12px !important;
+    }
+
+    .hero-content {
+        width: 100% !important;
+        height: auto !important;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 16px;
+        padding: 16px 14px !important;
+        border-radius: 16px;
+    }
+
+    .hero-image img {
+        width: min(62vw, 190px);
+        height: auto;
+        aspect-ratio: 5 / 7;
+        border-radius: 24px;
+    }
+
+    .hero-details {
+        width: 100%;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: clamp(1.6rem, 7vw, 2rem);
+        margin-bottom: 8px !important;
+    }
+
+    .hero-role {
+        font-size: clamp(1rem, 4.8vw, 1.25rem);
+    }
+
+    .hero-tagline {
+        width: 100%;
+        max-width: 100%;
+        text-align: center !important;
+        font-size: 0.95rem;
+        line-height: 1.55;
+        margin: 0 !important;
+    }
+
+    .hero-buttons {
+        width: 100%;
+        margin-top: 14px;
+        margin-bottom: 4px;
+        gap: 8px;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 11px 12px;
+    }
+}
