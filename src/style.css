@@ -796,3 +796,109 @@ body {
     width: min(92vw, 340px);
   }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    padding: 14px 22px;
+  }
+
+  .logo {
+    font-size: 1.15rem;
+    margin: 0;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+    padding: 7px 10px;
+  }
+
+  .projects,
+  .skills-section,
+  .resume,
+  .experience,
+  .education,
+  .chart-section,
+  .contact-section {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .project-card {
+    height: auto;
+    min-height: 210px;
+  }
+
+  .chart-container {
+    width: min(100%, 700px);
+    height: 320px;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar {
+    padding: 12px 10px;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .nav-links {
+    gap: 6px;
+  }
+
+  .nav-links a {
+    font-size: 0.8rem;
+    padding: 6px 8px;
+  }
+
+  .projects,
+  .skills-section,
+  .contact-section,
+  .resume,
+  .experience,
+  .education,
+  .chart-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .project-card {
+    padding: 14px;
+    min-height: 0;
+  }
+
+  .project-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .chart-container {
+    height: 240px;
+  }
+
+  .exp-card,
+  .timeline-content {
+    padding: 14px;
+  }
+
+  .contact-item {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .chatbot-content {
+    width: 94vw;
+    right: 3vw;
+    bottom: 60px;
+  }
+}
